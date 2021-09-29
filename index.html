@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSCARZ</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/responsiveindex.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- home5 page  -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- home6 page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+<body>
+    <!-- home1 page -->
+    <section class="header" id="header">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="#">Rscarz <span>.</span></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#" class="active">Home <span>.</span></a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <a class="popup2" href="#" onclick="toggle()">GET A QUOTE</a>
+
+
+                </ul>
+            </div>
+            <!-- <div class="social-media">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul> -->
+        </div>
+        </div>
+        <div class="hero" id="blur">
+            <div class="row">
+                <div class="left-sec">
+                    <div class="content">
+                        <h2><span>RSCARZ</span><br>Best&nbsp;Car&nbsp;Services</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident nam alias beatae dolor
+                            quisquam distinctio repellendus, delectus omnis repudiandae odit.</p>
+                    </div>
+
+                </div>
+                <div class="right-sec">
+                    <div class="my-car">
+                        <img src="assets/images/suzukicar.png" alt="">
+                        <img src="assets/images/ford.png" alt="">
+                        <img src="assets/images/audi.png " alt="">
+                        <img src="assets/images/infiniti.png" alt="">
+                        <img src="assets/images/bmw.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="popup">
+        <h2>GET A QUOTE</h2>
+        <form>
+
+            <div>
+                <input type="text" name="MyName" id="name" placeholder="Enter Your Name">
+            </div>
+
+            <div>
+                <input type="email" name="MyEmail" id="email" placeholder="Enter Your Email">
+            </div>
+
+            <div>
+                <input type="Number" name="MyNumber" id="number" placeholder="Enter Your Number">
+            </div>
+
+            <div>
+                <textarea name="MyText" cols="45" rows="-10" class="text-place" placeholder="Type your message"
+                    id="message"></textarea>
+            </div>
+
+            <div>
+
+                <input type="Submit" class="submite-button" value="Submit Now">
+
+            </div>
+        </form>
+        <a class="popup1" href="#" onclick="toggle()">Close</a>
+    </div>
+
+    </section>
+    </div>
+
+    <Script type="text/javascript">
+        function toggle() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </Script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
+    <script src="assets/js/index.js"></script>
+
+
+    <!-- home2 page  -->
+
+    <section>
+        <div class="wrapper">
+            <h1>OUR SERVICE</h1>
+            <p id="para">Our service facility is independently owned and operated providing full-service repair and
+                maintenance services.</p>
+
+            <div class="content-box">
+                <div class="card" id="c1">
+                    <img src="assets/images/schedulecar.png" alt="">
+                    <h2>Periodic Services</h2>
+                    <p>The Service is a schedule of planned maintenance activities aimed to prevent any breakdowns and
+                        failures of your car.</p>
+                    <a href="periodicservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c2">
+                    <img src="assets/images/dentpaint.png" alt="">
+                    <h2>Denting & Painting</h2>
+                    <p>The Denting process removes visible deformities on the exterior body of the car. In case of
+                        accidents, collision of vehicle denting and painting of the parts are preferred as it helps save
+                        the additional cost of the new part used</p>
+                    <a href="dentpaintservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c3">
+                    <img src="assets/images/batterycar.png" alt="">
+                    <h2>Batteries</h2>
+                    <p>An automotive battery or car battery is a rechargeable battery that is used to start a motor
+                        vehicle. Its main purpose is to provide an electric current to the electric-powered starting
+                        motor.</p>
+                    <a href="batterieservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c4">
+                    <img src="assets/images/carspa.png" alt="">
+                    <h2>Car Spa & Cleaning</h2>
+                    <p>an auto detailing service is like a day at the spa. Auto recon businesses give vehicles the
+                        professional, hands-on treatment that restore them to like-new condition.</p>
+                    <a href="carcleaningservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c5">
+                    <img src="assets/images/acservice.png" alt="">
+                    <h2>Ac Service & Repair</h2>
+                    <p>While working on this, they also check if there is any possible leak or crack in the AC line and
+                        hoses. The technician may use a UV dye to better pinpoint a possible leak in the system.</p>
+                    <a href="acservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c6">
+                    <img src="assets/images/wheels.png" alt="">
+                    <h2>typers & Wheel care</h2>
+                    <p>The inner part of your car tire is attached to the rim. You'll often hear people use “rims,” and
+                        “wheels,” interchangeably, where decorative wheels are called rims.</p>
+                    <a href="wheelcarservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c7">
+                    <img src="assets/images/insurance.png" alt="">
+                    <h2>Insurance Claims</h2>
+                    <p> An insurance claim is a formal request by a policyholder to an insurance company for coverage or
+                        compensation for a covered loss or policy event.</p>
+                    <a href="insurance.html">Read more</a>
+                </div>
+
+                <div class="card" id="c8">
+                    <img src="assets/images/detailingservice.png" alt="">
+                    <h2>Detailing Services</h2>
+                    <p>Professional car detailing is the art and the craft of cleaning and restoring a vehicle to
+                        like-new condition. Car detailing services are much more precise and labor-intensive than
+                        getting a car wash.</p>
+                    <a href="detailingservice.html">Read more</a>
+                </div>
+
+                <div class="card" id="c9">
+                    <img src="assets/images/lights.png" alt="">
+                    <h2>Lights & fitments</h2>
+                    <p>Fitments and light configurations primarily deal with the different lights of the car like the
+                        front and back headlights, fog lights, turning indicators etc.</p>
+                    <a href="lightservice.html">Read more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- home3 page  (how rscarz work)-->
+    <section>
+        <div class="body">
+            <h1 id="title">HOW&nbsp;RSCARZ&nbsp;WORKS</h1>
+            <div class="container">
+                <div class="box" id="b1">
+                    <h2>1</h2>
+                    <h3>Choose the Perfect Car Service</h3>
+                    <p>Choose Your Service From Our Wide Range of Offerings</p>
+                </div>
+
+                <div class="box" id="b2">
+                    <h2>2</h2>
+                    <h3>Book Appointment</h3>
+                    <p>Make An Appointment With Us </p>
+                </div>
+
+                <div class="box" id="b3">
+                    <h2>3</h2>
+                    <h3>Track Your Car Service Real-Time</h3>
+                    <p>We Will Take Care of Everything From Here!</p>
+                </div>
+
+                <div class="box" id="b4">
+                    <h2>4</h2>
+                    <h3>At Your Doorstep</h3>
+                    <p>We Offer Free Pick Up And Drop For All Services Booked </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- home4 page rscarz benifits -->
+    <section>
+        <div class="serv-box">
+            <div class="services">
+                <h1>RSCARZ BENIFITS</h1>
+                <div class="content1">
+
+                    <div class="card1" id="cards-1">
+                        <div class="box1">
+                            <img src="assets/images/handpeace.png" alt="">
+                            <h3>WE MAKE IT EASY</h3>
+                            <p>24 X 7 Breakdown Assistance<br><br>
+                                Doorstep Services<br><br>
+                                Pick-Up And Drop-Of Facility<br><br>
+                                Prompt Customer Support</p>
+                        </div>
+                    </div>
+
+                    <div class="card1" id="cards-2">
+                        <div class="box1">
+                            <img src="assets/images/shakehand.png" alt="">
+                            <h3>TRUSTED AND FAIR</h3>
+                            <p>2Expert Mechanics<br><br>
+                                Certified Garages<br><br>
+                                Genuine Parts<br><br>
+                                Live Updates</p>
+                        </div>
+                    </div>
+
+                    <div class="card1" id="cards-3">
+                        <div class="box1">
+                            <img src="assets/images/handcash.png" alt="">
+                            <h3>VALUE FOR MONEY</h3>
+                            <p>Savings Up To 40%<br><br>
+                                Free 15-Point Inspection<br><br>
+                                Transparent Pricing<br><br>
+                                Service Warranty</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- home5 page logos -->
+
+    <div class="logos">
+        <div class="containerss">
+            <h2 class="text-center font-weight-bold">OUR PARTNERS</h2>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="assets/images/Audiicon.png" alt="logo" class="img1"></div>
+                <div class="slide"><img src="assets/images/bmwicon.png" alt="logo" class="img2"></div>
+                <div class="slide"><img src="assets/images/fordicon.png" alt="logo" class="img3"></div>
+                <div class="slide"><img src="assets/images/LandRovericon.png" alt="logo" class="img4"></div>
+                <div class="slide"><img src="assets/images/Mercedesicon.png" alt="logo" class="img5"></div>
+                <div class="slide"><img src="assets/images/nissanicon.png" alt="logo" class="img6"></div>
+                <div class="slide"><img src="assets/images/renaulticon.png" alt="logo" class="img7"></div>
+                <div class="slide"><img src="assets/images/Hondaicon.png" alt="logo" class="img8"></div>
+                <div class="slide"><img src="assets/images/Skodaicon.png" alt="logo" class="img9"></div>
+                <div class="slide"><img src="assets/images/tataicon.png" alt="logo" class="img10"></div>
+                <div class="slide"><img src="assets/images/toyotaicon.png" alt="logo" class="img11"></div>
+                <div class="slide"><img src="assets/images/Volkswagenicon.png" alt="logo" class="img12"></div>
+
+            </section>
+        </div>
+    </div>
+
+
+
+    <!-- home6 page -->
+    <section id="sec-1">
+        <div class="htmls">
+            <div class="tests">
+                <div class="containers">
+                    <div class="section-title">
+                        <h2>TESTIMONIALS</h2>
+                        <span class="section-separator"></span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem vitae explicabo ratione!</p>
+                    </div>
+                </div>
+                <div class="testimonials-carousel-wrap">
+                    <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right"
+                            style="color:#fff"></i></div>
+                    <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left"
+                            style="color:#fff"></i></div>
+                    <div class="testimonials-carousel">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-item">
+                                        <div class="testi-avatar"><img src="assets/images/face11.png" alt=""></div>
+                                        <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                        <div class="testimonials-text">
+                                            <div class="listing-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <p>We were having tea at sub canteen, swargate on Sunday morning. At parking
+                                                lot one gentleman was struggling with his car. I shared the contact
+                                                number of rS CARZ. Happy to share that the mechanic reach to the
+                                                destination as per their commitment and did the work. Great!!! Thanks
+                                                for quick and excellent service!!! All the best!</p>
+                                            <a href="#" class="text-link"></a>
+                                            <div class="testimonials-avatar">
+                                                <h3>Mr. Sudhir Patil</h3>
+                                                <h4>Lorem ipsum dolor amet.</h4>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                                    </div>
+                                </div>
+
+                                <!-- second -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item">
+                                        <div class="testi-avatar"><img src="assets/images/face22.png" alt=""></div>
+                                        <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                        <div class="testimonials-text">
+                                            <div class="listing-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <p>rS CARZ makes car servicing hassle-free as they pick your vehicle from
+                                                your doorstep and drop it back. It’s also reliable and trustworthy as
+                                                they constantly provide you with all the detailed updates of the work
+                                                done via photos and videos on WhatsApp. Also for the kind of service
+                                                they are giving their rates are pretty much ok. I am very much satisfied
+                                                by their service.</p>
+                                            <a href="#" class="text-link"></a>
+                                            <div class="testimonials-avatar">
+                                                <h3>Ms Kshitija Kubal</h3>
+                                                <h4>Lorem ipsum dolor amet.</h4>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                                    </div>
+                                </div>
+
+
+                                <!-- third -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item">
+                                        <div class="testi-avatar"><img src="assets/images/face3.png" alt=""></div>
+                                        <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                        <div class="testimonials-text">
+                                            <div class="listing-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <p>Seriously the way rS Carz delivered the car was fantastic… That floor mat
+                                                paper and Odonil strip everything was good… Even the guy who come to
+                                                pick up and deliver was very professional and did a great job… Clean
+                                                work… Good work RS Carz, Thank you so much… Will sure recommend to my
+                                                friends…</p>
+                                            <a href="#" class="text-link"></a>
+                                            <div class="testimonials-avatar">
+                                                <h3>Mr. Muhil Suganthan</h3>
+                                                <h4>Lorem ipsum dolor amet.</h4>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                                    </div>
+                                </div>
+
+                                <!-- fourth -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item">
+                                        <div class="testi-avatar"><img src="assets/images/face4.png" alt=""></div>
+                                        <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                        <div class="testimonials-text">
+                                            <div class="listing-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <p>Much better equipped than your local repair shop in PUNE and trustworthy
+                                                too. Fairly priced spare parts, thorough cleaning and car wash and
+                                                amazing customer-centric service. Really impressed!</p>
+                                            <a href="#" class="text-link"></a>
+                                            <div class="testimonials-avatar">
+                                                <h3>Dinesh Kumar</h3>
+                                                <h4>Lorem ipsum dolor amet.</h4>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                                    </div>
+                                </div>
+                                <!-- testi end -->
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tc-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/index.js"></script>
+    <script type="script.js"></script>
+
+
+
+    <!-- footer box home7 -->
+
+    <div class="container-fluid footer_main">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-12 footer_bg">
+                        <h5>QUICKLINKS</h5>
+                        <ul class="quicklinks">
+                            <li> <a href="#">HOME</a></li><br>
+                            <li> <a href="service.html">SERVICES</a></li><br>
+                            <li> <a href="about.html">ABOUT US</a></li><br>
+                            <li> <a href="contact.html">CONTACT</a></li><br>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12 foll">
+                        <!-- facebook -->
+                        <h5>FOLLOW US</h5><a href="https://www.facebook.com" target="_blank" class="text-white">
+                            <span class="text-primary me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="	#4267B2"
+                                    class="bi bi-facebook" viewBox="0 0 20 20">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com" target="_blank" class="text-white">
+                            <span class="text-primary me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#fb3958"
+                                    class="bi bi-instagram" viewBox="0 0 20 20">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                        <!-- linkedin -->
+                        <a href="https://www.linkedin.com" target="_blank" class="text-white">
+                            <span class="text-primary me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#0e76a8"
+                                    class="bi bi-linkedin" viewBox="0 0 20 20">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                        <!-- twitter -->
+                        <a href="https://www.twitter.com" target="_blank" class="text-white">
+                            <span class="text-primary me-3">
+                                <svg class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="35" height="38"
+                                    viewBox="0 0 16 20">
+                                    <path class="foreground" fill="#2aa9e0"
+                                        d="m 16.00026,3.0388625 c -0.58865,0.2610694 -1.22138,0.4374284 -1.88531,0.51677 0.67769,-0.4061557 1.19826,-1.0492863 1.4433,-1.8156882 -0.63433,0.3761626 -1.33682,0.6492191 -2.08459,0.796395 C 12.87493,1.8984774 12.0218,1.5 11.07762,1.5 9.2648,1.5 7.79493,2.9693587 7.79493,4.7817676 c 0,0.2572203 0.029,0.5077321 0.085,0.7479163 C 5.15173,5.3928357 2.73298,4.0862392 1.11391,2.1006705 0.83135,2.5853679 0.66942,3.1490869 0.66942,3.7505572 c 0,1.1386255 0.57953,2.1431321 1.46035,2.7316454 C 1.59168,6.4652065 1.08551,6.3175109 0.64294,6.071728 c -3.7e-4,0.013697 -3.7e-4,0.027394 -3.7e-4,0.04129 0,1.5900606 1.13154,2.9164125 2.63324,3.2181024 C 3.00037,9.4061034 2.71036,9.446214 2.411,9.446214 c -0.21153,0 -0.41713,-0.020595 -0.61761,-0.058886 0.41776,1.303797 1.63002,2.252636 3.06653,2.27903 -1.12346,0.880286 -2.53884,1.404974 -4.07687,1.404974 -0.26496,0 -0.52625,-0.0156 -0.78305,-0.04589 C 1.45274,13.956676 3.17821,14.5 5.032,14.5 c 6.03793,0 9.33982,-5.0007583 9.33982,-9.3377308 0,-0.1422969 -0.003,-0.283784 -0.01,-0.4246313 0.64129,-0.4626226 1.19778,-1.0405783 1.63787,-1.6987554 z" />
+                                </svg>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-3 col-12 work">
+                        <h5>CONTACT</h5>
+                        <i class="fa fa-envelope"></i>
+                        <p>rscarz@gmail.com </p>
+                        <i class="fa fa-phone"></i>
+                        <p>9890588148</p>
+                    </div>
+                    <div class="col-lg-3 col-12 head-title">
+                        <h5>RSCARZ</h5>
+                        <p>All Car Services Provided Over Here Best Car Repair Services</p>
+
+                    </div>
+                </div>
+                <footer>
+                    <h2>Copyright © 2020 RS CARZ</h2>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" href="assets/bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" href="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+
+</html>

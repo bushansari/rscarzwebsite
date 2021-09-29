@@ -1,0 +1,144 @@
+
+@media (max-width:576px){
+/* /// bg blur /// */
+.container1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #fff173; */
+}
+.container1#blur.active{
+    filter: blur(70px);
+    pointer-events: none;
+    user-select: none;
+}
+.container1 .content-1{
+    position: relative;
+    max-width: 800px;
+}
+.content-1 #title-1{
+    text-align: center;      
+    /* margin-left: 200px; */
+    margin-top: -90px;
+    margin-bottom: -30px;
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Merienda', cursive;
+}
+.content-1 p{
+    text-align: center;
+    margin-top: 50px;
+}
+.popup2{
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: black;
+    
+    border-radius: 22px;
+}
+.popup2:hover{
+    text-decoration: none;
+    color: black;
+    background: #d43242;
+}
+.popup1{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background: #111;
+}
+.popup1:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    color: #d43242;
+    transform: translate(-50% , -50%);
+    width: 380px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+/* /// form /// */
+.right .contact-form1 {
+    width: 30rem;
+}
+
+form input {
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    width: 350px;
+    padding: 2px;
+}
+#name{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#email{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#number{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#message{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8px;
+}
+form textarea {
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    padding: 10px 0px;
+    
+}
+#popup h2{
+    margin-top: -20px;
+    text-align: center;
+}
+#popup a{
+   width: 10rem;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+.submite-button{
+    width: 100%;
+   font-weight: 800;
+   font-size: 15px;
+   padding: 8px;
+}
+.submite-button:hover{
+    cursor: pointer;
+}
+.text-place{
+   width: 100%;
+}
+}
